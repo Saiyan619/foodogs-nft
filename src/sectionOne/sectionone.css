@@ -30,15 +30,17 @@ p{
 
 
 .container_right{
-    width: 100%;
+    width: 50%;
 }
 
 .monk{
     width: 400px;
 }
 
-.sub_container{
-    text-align: left;
+.section_1_sub_container{
+    text-align: center;
+    
+
 }
 
 button{

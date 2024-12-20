@@ -11,7 +11,7 @@ const SectionOne = () => {
               <div className='container_right'>
                   <span className='chinese_text1'>我們的故事</span>
                   <h2>OUR STORY</h2>
-                  <div className='sub_container'>
+                  <div className='section_1_sub_container'>
                   <p>The Foo Dog is the protector and best companion to the Lucky Buddha NFT inside The Lucky Club Collection!
                       They never leave each others side which is why we are gifting all current and future owners of the Lucky Buddha a FREE FOO DOG NFT!</p>
                   
