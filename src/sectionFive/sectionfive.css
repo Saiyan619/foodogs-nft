@@ -1,0 +1,36 @@
+.main_container{
+    background-color: black;
+    height: 35vh;
+    
+}
+
+.sub_container{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+
+.hero_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.chinese{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d20c00;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .main_container{
+        background-color: black;
+        height: 40vh;
+        
+    }
+}

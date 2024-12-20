@@ -1,0 +1,84 @@
+.section_two_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chinese_text2{
+    font-size: 40px;
+    color: #d20c00;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -5px;
+    text-align: center;
+
+}
+
+p{
+    font-size: 13px;
+}
+
+
+.section_two_container_right{
+    width: 50%;
+    text-align: center;
+}
+
+.logo{
+    width:100%;
+}
+
+.sub_container{
+    margin-top: -20px;
+
+}
+
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .section_two_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .section_two_container_right{
+        width: 100%;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: -5px;
+        text-align: center;
+    
+    }
+
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+
+
+}

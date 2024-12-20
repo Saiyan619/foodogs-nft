@@ -1,0 +1,79 @@
+.section_six_main_container{
+    position: relative;
+}
+
+.bg_text{
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    z-index: 0; 
+    width: 40%; 
+}
+
+.chinese_tex5{
+    font-size: 40px;
+    color: #d20c00;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h6{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.potrait_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.potrait_sub_container{
+    border: 7px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.potrait{
+    width: 300px;
+}
+
+.potrait_title{
+    background-color: black;
+    width: 100%;
+    color: #d20c00;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    h6{
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .potrait_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .potrait{
+        width: 130px;
+    }
+}

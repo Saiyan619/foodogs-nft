@@ -1,0 +1,45 @@
+.hero_text_container{
+    margin-top: 80px;
+}
+.slider_container{
+    margin-top: 20px;
+}
+.slide_img_container{
+    border: 10px solid black;
+}
+.slide_img{
+    width: 300px;
+}
+
+.chinese_text3{
+    font-size: 40px;
+    color: #d20c00;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+h4{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -5px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    h4{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: -5px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    
+    }
+}
