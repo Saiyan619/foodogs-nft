@@ -11,6 +11,7 @@
 
 .sub_two_container{
     display: flex;
+    gap: 20px;
 }
 
 .chinese_tex4{
