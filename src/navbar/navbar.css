@@ -4,12 +4,14 @@ nav{
     align-items: center;
     font-size: 13px;
     padding: 10px;
+    z-index: 10000;
 }
 
 .list_and_btn_container{
     display: flex;
     align-items: center;
     gap: 20px;
+    z-index: 10000;
     
 }
 
@@ -25,6 +27,14 @@ li{
     list-style: none;
     font-size: 11px;
     font-weight: 600;
+    cursor: pointer;
+}li:hover{
+    text-decoration: underline;
+    list-style: none;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #d20c00;
 }
 
 .hero_logo{

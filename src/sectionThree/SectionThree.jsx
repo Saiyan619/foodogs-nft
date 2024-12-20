@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 const SectionThree = () => {
   return (
-      <div>
+      <div id='section3'>
           <div className='hero_text_container'>
               <span className='chinese_text3'>特色狗</span>
               <h4>FEATURED DOGS</h4>

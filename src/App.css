@@ -4,6 +4,11 @@
   font-family: "Montserrat", serif;
   margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #ffe700;
 }
